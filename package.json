@@ -36,5 +36,9 @@
     "jest-cli": "*",
     "ts-jest": "*",
     "typescript": "*"
-  }
+  },
+  "files": [
+      "dist",
+      "typescript"
+  ]
 }
