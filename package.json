@@ -1,0 +1,40 @@
+{
+  "name": "@mitoc/constants",
+  "description": "Constants for use across MIT Outing Club infrastructure",
+  "version": "0.4.1",
+  "license": "MIT",
+  "author": {
+    "name": "David Cain",
+    "email": "davidjosephcain@gmail.com",
+    "url": "https://dcain.me"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidCain/mitoc-const"
+  },
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint typescript --ext .ts",
+    "test": "jest"
+  },
+  "main": "typescript/affiliations.tsx",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-typescript": "*",
+    "@types/jest": "*",
+    "@typescript-eslint/parser": "*",
+    "@typescript-eslint/eslint-plugin": "*",
+    "babel-eslint": "*",
+    "babel-jest": "*",
+    "eslint": "*",
+    "jest": "*",
+    "jest-cli": "*",
+    "ts-jest": "*",
+    "typescript": "*"
+  }
+}

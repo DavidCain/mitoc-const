@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "outDir": "dist",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "types": [
+      "jest"
+    ],
+    "lib": [
+      "esnext"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
