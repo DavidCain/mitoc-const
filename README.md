@@ -26,7 +26,19 @@ git push origin master
 ```
 
 ### npm/TypeScript
+(Not used yet anywhere, an early prototype)
 ```bash
 npm run build
 npm publish
 ```
+
+
+## TODO:
+- [ ] Add a Makefile for this project:
+    - `make lint`, `make test`, and `make check`
+    - `make push`
+- [ ] Black & isort
+- [ ] Run mypy as part of build check
+- [ ] Switch to poetry
+- [ ] Clean up the (unused) TypeScript package, verify for use
+- [ ] Automatically deploy after successful build
