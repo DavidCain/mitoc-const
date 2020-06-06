@@ -11,12 +11,12 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='mitoc_const',
-    version='0.6.0',
+    version='1.0.0',
     author='David Cain',
     author_email='davidjosephcain@gmail.com',
     url='https://github.com/DavidCain/mitoc-const',
     packages=['mitoc_const'],
-    package_data={'mitoc-const': ["py.typed"]},
+    package_data={'mitoc_const': ["py.typed"]},
     description='Constants for use across MIT Outing Club infrastructure',
     long_description=long_description,
     long_description_content_type="text/markdown",
