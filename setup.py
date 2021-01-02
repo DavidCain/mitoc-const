@@ -11,7 +11,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='mitoc_const',
-    version='1.0.0',
+    version='1.0.1',
     author='David Cain',
     author_email='davidjosephcain@gmail.com',
     url='https://github.com/DavidCain/mitoc-const',

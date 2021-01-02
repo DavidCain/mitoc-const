@@ -16,9 +16,12 @@ String values are used in:
 - MITOC Trips (updating `people.affiliation` directly)
 """
 from collections import namedtuple
-from typing import List
+from typing import List, NamedTuple
 
-Affiliation = namedtuple('Affiliation', ['CODE', 'VALUE', 'ANNUAL_DUES'])
+class Affiliation(NamedTuple):
+    CODE: str
+    VALUE: str
+    ANNUAL_DUES: int
 
 MIT_UNDERGRAD = Affiliation('MU', 'MIT undergrad', 15)
 MIT_GRAD_STUDENT = Affiliation('MG', 'MIT grad student', 15)
